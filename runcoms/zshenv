@@ -9,3 +9,6 @@
 if [[ "$SHLVL" -eq 1 && ! -o LOGIN && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprofile"
 fi
+export PATH="./bin:$PATH"
+export RBENV_ROOT=/usr/local/var/rbenv
+export COCOAPODS_DISABLE_DETERMINISTIC_UUIDS=1

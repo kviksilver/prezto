@@ -11,3 +11,8 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+alias ox='open -a Xcode ./'
+alias ddd='rm -rf ~/Library/Developer/Xcode/DerivedData/*'
+alias rp='rm -rf Pods/;bundle exec pod install'
+
